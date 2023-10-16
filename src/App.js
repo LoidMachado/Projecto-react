@@ -7,6 +7,7 @@ import Container from './components/layout/Container';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Projects from './components/pages/Projects';
+import NewProject from './components/pages/NewProject'
 function App() {
   return (
     <Router>
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route exact path="/projects">
             <Projects/>
+          </Route>
+          <Route exact path="/newproject">
+          <NewProject/>
           </Route>
         </Container>
       </Switch>

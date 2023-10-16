@@ -14,7 +14,7 @@ function NewProject() {
         fetch('http://localhost:3000/projects',{
             method: 'POST',
             headers: {
-                'Content-type': 'application/son',
+                'Content-type': 'application/json',
             },
             //Enviar os dados para o servidor
             body: JSON.stringify(project),
