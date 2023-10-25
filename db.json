@@ -1,19 +1,7 @@
 {
   "projects": [
     {
-      "id": 1
-    },
-    {
-      "id": 2
-    },
-    {
-      "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "name": "sdfghj",
+      "name": "Projecto1",
       "budget": "1234567",
       "category": {
         "id": "1",
@@ -22,6 +10,39 @@
       "cost": 0,
       "services": [],
       "id": 5
+    },
+    {
+      "name": "Base de dados",
+      "budget": "23456",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "UI-UX",
+      "budget": "12345678",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
+    },
+    {
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "name": "Administração de redes e Serviços",
+      "budget": "2345678",
+      "cost": 0,
+      "services": [],
+      "id": 8
     }
   ],
   "categories": [
